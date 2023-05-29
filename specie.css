@@ -1,0 +1,188 @@
+header{
+    height: 600px;
+    background-image: url("https://static.vecteezy.com/ti/foto-gratuito/p2/3258801-pappagallo-blu-e-giallo-ara-su-un-ramo-di-un-albero-sfondo-giungla-gratuito-foto.JPG");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+#utente{
+    background-color: rgb(0, 0, 0);
+  height: 20px;
+  color:white;
+  font-weight: 40px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+#utente div{
+    text-align: end;
+     margin-left: 60%;
+    font-size: 25px;
+    margin-top: -50px;
+}
+
+@media(max-width:700px){
+  #utente div{
+    display: none;
+  }
+}
+
+#utente div img{
+  height:50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav div a{
+    color:white;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+  nav div a{
+    font-size:15px;
+  }
+}
+
+nav div a:hover{
+    transition: all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.71);
+    color: black;
+}
+
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: rgb(49, 98, 49);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px;
+  background-color: #322e2e;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #444;
+  color: white;
+}
+
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: lightslategray;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: darkgreen;
+}
+
+.risultato{
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width:700px){
+  .risultato{
+    flex-direction: column;
+  }
+}
+
+.risultato div{
+  position: relative;
+  display: inline-block;
+  height: 400px;
+}
+
+@media(max-width:700px){
+  .risultato div{
+    height:200px;
+    margin: 150px;
+  }
+}
+
+.img_pappagallo{
+  height: 100%;
+  padding: 70px;
+  background-color: #444;
+  margin-bottom: 40px;
+}
+
+.img_preferito{
+  height: 60px;
+  position: absolute;
+  top:0;
+  right:0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.risultato p{
+  color: white;
+  font-size: 20px;
+  background-color: #444;
+  margin: 40px;
+  padding: 20px;
+}
+
+footer{
+  margin-top: 100px;
+  background-color: black;
+  height: 50px;
+  padding: 70px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
